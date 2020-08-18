@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/abstracts/_variables.scss",
+        "../sass/base/_base.scss",
+        "../sass/base/_utils.scss",
+        "../sass/base/_typography.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
