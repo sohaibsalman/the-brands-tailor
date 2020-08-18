@@ -15,7 +15,24 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+.txt-thin {
+  font-weight: lighter;
+}
+
+.txt-thick {
+  font-weight: 700;
+}
+
 .navbar-brand img {
   width: 50px;
+}
+
+.bg-color {
+  background: black;
+}
+
+.nav-link {
+  margin: 0 3px;
+  font-size: 18px;
 }
 /*# sourceMappingURL=main.css.map */
