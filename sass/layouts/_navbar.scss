@@ -1,15 +1,26 @@
 .navbar-brand img 
 {
-    width: 50px;
+    width: 30px;
+}
+
+a.navbar-brand 
+{
+    font-size: 25px;
+}
+.brand-name 
+{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 15px;
 }
 
 .bg-color 
 {
-    background: black;
+    background: $color-primary;
 }
 
 .nav-link 
 {
-    margin: 0 3px;
-    font-size: 18px;
+    margin: 0 8px;
+    font-size: 20px;
 }
