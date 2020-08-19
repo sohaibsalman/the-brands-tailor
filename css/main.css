@@ -77,7 +77,14 @@ a.navbar-brand {
   padding: 150px 0;
   margin-top: -150px;
   border-top-left-radius: 150px;
+  border-bottom-left-radius: 150px;
   background-color: white;
+}
+
+.section-services {
+  padding: 150px 0;
+  background: #221f3b;
+  margin-top: -150px;
 }
 
 .home {
@@ -144,5 +151,10 @@ a.navbar-brand {
 
 .about__content-text {
   text-align: left;
+}
+
+.services__heading {
+  margin-top: 100px;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

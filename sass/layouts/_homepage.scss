@@ -11,5 +11,13 @@
     padding: 150px 0;
     margin-top: -150px;
     border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
     background-color: white;
+}
+
+.section-services 
+{
+    padding: 150px 0;
+    background: $color-primary;
+    margin-top: -150px;
 }
