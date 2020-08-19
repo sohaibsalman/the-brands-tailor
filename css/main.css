@@ -27,6 +27,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #2ecc71;
 }
 
+p {
+  font-size: 19px;
+}
+
+.heading-secondary {
+  text-transform: lowercase;
+  color: #2ecc71;
+}
+
+.heading-primary {
+  font-size: 50px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
 .navbar-brand img {
   width: 30px;
 }
@@ -52,7 +67,7 @@ a.navbar-brand {
 
 .section-home {
   background-color: #221f3b;
-  height: 130vh;
+  height: 140vh;
 }
 
 .section-about {
@@ -65,7 +80,7 @@ a.navbar-brand {
 }
 
 .home {
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .home__headings {
@@ -85,6 +100,7 @@ a.navbar-brand {
 
 .about {
   position: relative;
+  text-align: center;
 }
 
 .about__overview {
@@ -93,17 +109,35 @@ a.navbar-brand {
 
 .about__overview-item {
   background-color: white;
-  text-align: center;
   text-transform: uppercase;
   padding: 40px 20px;
   border-radius: 40px;
   -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
           box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .about__overview-item i {
   color: #2ecc71;
   font-size: 55px;
   margin-bottom: 20px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.about__overview-item:hover {
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+  background-color: #2ecc71;
+  color: white;
+}
+
+.about__overview-item:hover i {
+  color: white;
+}
+
+.about__heading {
+  margin-top: 50px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -25,3 +25,21 @@ h1, h2, h3, h4, h5, h6
 {
     color: $color-green-1;
 }
+
+p 
+{
+    font-size: 19px;
+}
+
+.heading-secondary 
+{
+    text-transform: lowercase;
+    color: $color-green-1;
+}
+
+.heading-primary 
+{
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
