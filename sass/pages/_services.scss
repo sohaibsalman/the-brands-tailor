@@ -4,5 +4,65 @@
     {
         margin-top: 100px;
         text-align: center;
+        margin-bottom: 50px;
+    }
+
+    &__offer 
+    {
+        &-item 
+        {
+            background-color: $color-primary-light;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(black, .3);
+
+
+            &--img 
+            {
+                padding: 10px 120px;
+            }
+
+            &--text 
+            {
+                padding: 0 50px 20px 50px;
+                h6 
+                {
+                    text-transform: uppercase;
+                    color: $color-green-1;
+                    margin: 5px 0;
+                }
+
+                i 
+                {
+                    color: $color-green-1;
+                }
+
+                hr 
+                {
+                    background-color: $color-green-1;
+                }
+
+                h3 
+                {
+                    color: white;
+                }
+
+                p 
+                {
+                    font-size: 18px;
+                    color: white;
+                    font-weight: lighter;
+                }
+
+                .hidden-text 
+                {
+                    display: none;
+                }
+            }
+
+            &:hover .hidden-text 
+            {
+                display: block;
+            }
+        }
     }
 }
