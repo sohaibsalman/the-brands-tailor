@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-size: 19px;
+  font-size: 20px;
 }
 
 .heading-secondary {
@@ -40,6 +40,7 @@ p {
   font-size: 50px;
   font-weight: bolder;
   text-transform: uppercase;
+  color: #221f3b;
 }
 
 .navbar-brand img {
@@ -138,6 +139,10 @@ a.navbar-brand {
 }
 
 .about__heading {
-  margin-top: 50px;
+  margin: 50px 0;
+}
+
+.about__content-text {
+  text-align: left;
 }
 /*# sourceMappingURL=main.css.map */

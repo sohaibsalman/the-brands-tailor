@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6
 
 p 
 {
-    font-size: 19px;
+    font-size: 20px;
 }
 
 .heading-secondary 
@@ -42,4 +42,5 @@ p
     font-size: 50px;
     font-weight: bolder;
     text-transform: uppercase;
+    color: $color-primary;
 }

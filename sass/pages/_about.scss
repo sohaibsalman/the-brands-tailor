@@ -37,6 +37,14 @@
 
     &__heading 
     {
-        margin-top: 50px;
+        margin: 50px 0;
+    }
+
+    &__content 
+    {
+        &-text 
+        {
+            text-align: left;
+        }
     }
 }
