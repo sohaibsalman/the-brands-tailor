@@ -68,7 +68,7 @@ a.navbar-brand {
 
 .section-home {
   background-color: #221f3b;
-  height: 140vh;
+  padding: 250px 100px 350px;
 }
 
 .section-about {
@@ -85,10 +85,6 @@ a.navbar-brand {
   padding: 150px 0;
   background: #221f3b;
   margin-top: -150px;
-}
-
-.home {
-  padding-top: 150px;
 }
 
 .home__headings {
@@ -160,18 +156,19 @@ a.navbar-brand {
 }
 
 .services__offer-item {
+  cursor: pointer;
   background-color: #2f2b53;
   border-radius: 20px;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  padding: 20px 40px;
+  margin: 15px 0;
 }
 
-.services__offer-item--img {
-  padding: 10px 120px;
-}
-
-.services__offer-item--text {
-  padding: 0 50px 20px 50px;
+.services__offer-item--icon {
+  font-size: 80px;
+  color: #2ecc71;
+  text-align: center;
 }
 
 .services__offer-item--text h6 {
@@ -188,7 +185,7 @@ a.navbar-brand {
   background-color: #2ecc71;
 }
 
-.services__offer-item--text h3 {
+.services__offer-item--text h5 {
   color: white;
 }
 
@@ -198,11 +195,17 @@ a.navbar-brand {
   font-weight: lighter;
 }
 
-.services__offer-item--text .hidden-text {
-  display: none;
+.services__offer-item--text .arrow-icon {
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
-.services__offer-item:hover .hidden-text {
-  display: block;
+.services__offer-item:hover .arrow-icon {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.img-padding {
+  padding: 10px 380px;
 }
 /*# sourceMappingURL=main.css.map */

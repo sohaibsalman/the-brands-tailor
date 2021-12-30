@@ -11,19 +11,22 @@
     {
         &-item 
         {
+            cursor: pointer;
             background-color: $color-primary-light;
             border-radius: 20px;
             box-shadow: 0 0 20px rgba(black, .3);
+            padding: 20px 40px;
+            margin: 15px 0;
 
-
-            &--img 
+            &--icon 
             {
-                padding: 10px 120px;
+                font-size: 80px;
+                color: $color-green-1;
+                text-align: center;
             }
 
             &--text 
             {
-                padding: 0 50px 20px 50px;
                 h6 
                 {
                     text-transform: uppercase;
@@ -41,7 +44,7 @@
                     background-color: $color-green-1;
                 }
 
-                h3 
+                h5 
                 {
                     color: white;
                 }
@@ -53,16 +56,21 @@
                     font-weight: lighter;
                 }
 
-                .hidden-text 
+                .arrow-icon 
                 {
-                    display: none;
+                    transition: all .2s;
                 }
             }
 
-            &:hover .hidden-text 
+            &:hover .arrow-icon
             {
-                display: block;
+                transform: rotate(180deg);
             }
         }
     }
+}
+
+.img-padding 
+{
+    padding: 10px 380px;
 }
